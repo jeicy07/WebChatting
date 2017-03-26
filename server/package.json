@@ -1,0 +1,18 @@
+{
+  "name": "Hichat_server",
+  "version": "1.0.0",
+  "description": "Server of a web-based chatroom named after Hichat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeicy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "delivery": "0.0.5",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "socket.io": "^1.5.1"
+  }
+}

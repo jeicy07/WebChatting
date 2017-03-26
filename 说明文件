@@ -1,0 +1,14 @@
+1.运行平台：node.js
+2.因为我用的均为解释性语言，无需编译，故没有可执行程序目录以及编译工具。
+3.测试方法：
+(1) 安装node.js
+	在官网（http://nodejs.org/)中下载Node.js
+	在命令行输入：node -v
+	在命令行输入：npm -v检查是否安装成功
+(2) 在client和server文件夹下分别安装express
+	在命令行窗口A输入：cd /Hichat/source/client
+				npm install express
+	在命令行窗口B输入：cd /Hichat/source/server
+				npm install express
+(3) 在命令行窗口A输入：npm run start
+	在命令行窗口B输入：node index.js
